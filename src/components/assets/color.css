@@ -1,0 +1,42 @@
+.f-text-primary {
+	color: #42b983;
+}
+.f-text-success {
+	color: #4278b9;
+}
+.f-text-danger {
+	color: #b9425e;
+}
+.f-text-warning {
+	color: #b97042;
+}
+.f-text-dark {
+	color: #1a1f24;
+}
+.f-text-light {
+	color: #fcfcfc;
+}
+.f-bg-primary {
+	background-color: #42b983;
+	color: #fff;
+}
+.f-bg-success {
+	background-color: #4278b9;
+	color: #fff;
+}
+.f-bg-danger {
+	background-color: #b9425e;
+	color: #fff;
+}
+.f-bg-warning {
+	background-color: #b97042;
+	color: #fff;
+}
+.f-bg-dark {
+	background-color: #1a1f24;
+	color: #fff;
+}
+.f-bg-light {
+	background: #fcfcfc;
+	color: #1a1f24;
+}
