@@ -1,6 +1,6 @@
 {
   "name": "@hfrada/frapure",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "core-util-is": "^1.0.2",
     "purecss": "^2.0.3",
     "vue": "^2.6.11",
     "vue-router": "^3.4.3"
@@ -41,7 +42,7 @@
     "last 2 versions",
     "not dead"
   ],
-  "main": "./dist/frapure.common.js",
+  "main": "./src/main.js",
   "files": [
     "dist/*",
     "src/*",
