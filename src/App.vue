@@ -1,5 +1,16 @@
 <template>
   <div id="app">
+    <f-input-group type="success" style="width: 500px; margin-left: 10px">
+      <f-input-group-label type="success">ssss</f-input-group-label>
+      <!-- <f-input-group-button>ss</f-input-group-button> -->
+      <div class="input-group-area"><f-input type="text" placeholder="Email Address" color="success" /></div>
+    </f-input-group>
+      
+    <!-- <f-input-group class="input-group">
+      <div class="input-group-icon">Income:</div>
+      <div class="input-group-area"><input type="text" value="0.00"></div>
+      <div class="input-group-icon">$</div>
+    </f-input-group> -->
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <f-search-popup type="multiple" :keys="['name']" :data="dd" @f-change="val => items = val" />
     <br>
@@ -101,5 +112,21 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.input-group-area{
+  width:100%;
+}
+.input-group input{
+  border: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+}
+.input-group input{
+  box-sizing: border-box;
+  border: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
 }
 </style>

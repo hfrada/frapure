@@ -1,24 +1,23 @@
 # Frada Pure
+A simple and lightweight vue component for making light web with Pure CSS support
 
-## Project setup
+## Install
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm i @hfrada/frapure
 ```
 
-### Compiles and minifies for production
+Import in your main.js:
+
 ```
-npm run build
+import '@hfrada/frapure'
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Components
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Avaliable components:
+- Grids
+- Forms
+- Menus
+- Tables
+- Modal
+- Search Box

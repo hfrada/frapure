@@ -1,42 +1,51 @@
+:root {
+	--primary: #42b983;
+	--success: #4278b9;
+	--danger: #b9425e;
+	--warning: #b97042;
+	--dark: #1a1f24;
+	--light: #fcfcfc;
+	--mainColor: var(--primary);
+}
 .f-text-primary {
-	color: #42b983;
+	color: var(--primary);
 }
 .f-text-success {
-	color: #4278b9;
+	color: var(--success);
 }
 .f-text-danger {
-	color: #b9425e;
+	color: var(--danger);
 }
 .f-text-warning {
-	color: #b97042;
+	color: var(--warning);
 }
 .f-text-dark {
-	color: #1a1f24;
+	color: var(--dark);
 }
 .f-text-light {
-	color: #fcfcfc;
+	color: var(--light);
 }
 .f-bg-primary {
-	background-color: #42b983;
-	color: #fff;
+	background-color: var(--primary);
+	color: var(--light);
 }
 .f-bg-success {
-	background-color: #4278b9;
-	color: #fff;
+	background-color: var(--success);
+	color: var(--light);
 }
 .f-bg-danger {
-	background-color: #b9425e;
-	color: #fff;
+	background-color: var(--danger);
+	color: var(--light);
 }
 .f-bg-warning {
-	background-color: #b97042;
-	color: #fff;
+	background-color: var(--warning);
+	color: var(--light);
 }
 .f-bg-dark {
-	background-color: #1a1f24;
-	color: #fff;
+	background-color: var(--dark);
+	color: var(--light);
 }
 .f-bg-light {
-	background: #fcfcfc;
-	color: #1a1f24;
+	background: var(--light);
+	color: var(--dark);
 }

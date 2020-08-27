@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import App from './App.vue'
-import test from './components/main.js'
-import 'purecss'
+import App from '@/App.vue'
+import '@/components/main.js'
+// import 'purecss'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)

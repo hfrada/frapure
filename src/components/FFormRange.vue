@@ -15,7 +15,7 @@ export default {
   props: {
     label: {
       type: String,
-      default: function() {return 'asd'}
+      default: function() {return ''}
     },
     type: {
       type: String,
@@ -23,7 +23,7 @@ export default {
     },
     msg: {
       type: String,
-      default: function() {return 'sdada'}
+      default: function() {return ''}
     },
     error: {
       type: Boolean,
