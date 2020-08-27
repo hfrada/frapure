@@ -49,9 +49,5 @@
     "public/*",
     "*.json",
     "*.js"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hfrada/frapure.git"
-  },
+  ]
 }
