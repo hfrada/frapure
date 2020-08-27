@@ -3,7 +3,7 @@
     <f-input-group type="success" style="width: 500px; margin-left: 10px">
       <f-input-group-label type="success">ssss</f-input-group-label>
       <!-- <f-input-group-button>ss</f-input-group-button> -->
-      <div class="input-group-area"><f-input type="text" placeholder="Email Address" color="success" /></div>
+      <f-input-group-main><f-input type="text" placeholder="Email Address" color="success" /></f-input-group-main>
     </f-input-group>
       
     <!-- <f-input-group class="input-group">
@@ -112,21 +112,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
-.input-group-area{
-  width:100%;
-}
-.input-group input{
-  border: 0;
-  display: block;
-  width: 100%;
-  padding: 8px;
-}
-.input-group input{
-  box-sizing: border-box;
-  border: 0;
-  display: block;
-  width: 100%;
-  padding: 8px;
 }
 </style>
